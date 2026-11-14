@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f7">
+  <meta name="description" content="A cute free text studio for fancy fonts, kaomoji, emojis and aesthetic symbols. Copy and paste anywhere.">
+  <title>BloomText — cute text studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div><div class="bg-orb orb-two"></div><div class="petal-art petal-art-one" aria-hidden="true"></div><div class="petal-art petal-art-two" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="BloomText home"><span class="brand-mark">✿</span><span>Bloom<span class="brand-light">Text</span></span></a>
+    <nav class="nav">
+      <a href="#font-tool">Fonts</a><a href="#emoticons">Emoticons</a><a href="#emoji">Emoji</a><a href="#symbols">Symbols</a>
+    </nav>
+    <a class="tiny-pill" href="#font-tool">✨ Start creating</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="sparkle">✦</span> YOUR LITTLE CORNER OF THE INTERNET <span class="sparkle">✦</span></div>
+      <h1>Make your words<br><span class="gradient-text">a little more you.</span></h1>
+      <p class="hero-copy">Fancy fonts, cute kaomoji, emoji combos and pretty symbols — all ready to copy & paste.</p>
+      <div class="hero-actions"><a class="button primary" href="#font-tool">Explore the tools <span>↗</span></a><a class="button secondary" href="#emoticons">Browse cute faces ♡</a></div>
+      <div class="hero-note"><span>♡</span> Free to use · No sign-up · Works on mobile</div><div class="hero-ribbon" aria-hidden="true"><span>✿</span><span>♡</span><span>✧</span><span>❀</span><span>୨୧</span></div>
+      <div class="floating-card float-left">૮ ˶ᵔ ᵕ ᵔ˶ ა</div><div class="floating-card float-right">୨୧ ✧</div>
+    </section>
+
+    <section class="quick-stats reveal">
+      <div><strong id="font-count">100+</strong><span>text styles</span></div><i></i>
+      <div><strong>150+</strong><span>cute faces</span></div><i></i>
+      <div><strong>100+</strong><span>emoji & symbols</span></div><i></i>
+      <div><strong>∞</strong><span>ways to create</span></div>
+    </section>
+
+    <section class="tool-section reveal" id="font-tool">
+      <div class="section-heading"><div><span class="section-kicker">01 / TEXT MAGIC</span><h2>Fancy font generator <span>✧</span></h2><p>Type once, find your favourite style, and copy it anywhere.</p></div><span class="heading-icon">Aa</span></div>
+      <div class="panel font-panel">
+        <label class="field-label" for="font-input">YOUR TEXT</label>
+        <textarea id="font-input" maxlength="180" placeholder="Type something lovely...">Shine bright ✨</textarea>
+        <div class="input-bottom"><span id="char-count">12 / 180</span><button class="text-button" id="clear-text">Clear text ×</button></div>
+        <div class="toolbar"><div class="search-wrap"><span>⌕</span><input id="font-search" type="search" placeholder="Search styles (gothic, bold, cute...)"></div><select id="font-filter" aria-label="Filter font styles"><option value="all">All styles</option><option value="classic">Classic</option><option value="script">Script & cursive</option><option value="bold">Bold</option><option value="gothic">Gothic</option><option value="cute">Cute & decorated</option><option value="small">Small & special</option></select></div>
+        <div class="results-meta"><span id="font-results-label">Showing all styles</span><span>Tap a card to copy ♡</span></div>
+        <div class="font-grid" id="font-results" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="tool-section reveal" id="emoticons">
+      <div class="section-heading"><div><span class="section-kicker">02 / EXPRESS YOURSELF</span><h2>Kaomoji & emoticons <span>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა</span></h2><p>Little text faces for every mood. Pick one to copy.</p></div><div class="heading-icon face-icon">◡̈</div></div>
+      <div class="panel">
+        <div class="toolbar"><div class="search-wrap"><span>⌕</span><input id="face-search" type="search" placeholder="Search happy, love, shy, angry..."></div><select id="face-filter" aria-label="Filter emoticons"><option value="all">All moods</option><option>Happy</option><option>Love</option><option>Shy</option><option>Sad</option><option>Angry</option><option>Excited</option><option>Sleepy</option><option>Animals</option><option>Magic</option></select></div>
+        <div class="face-grid" id="face-results"></div>
+      </div>
+    </section>
+
+    <section class="tool-section reveal" id="emoji">
+      <div class="section-heading"><div><span class="section-kicker">03 / LITTLE DETAILS</span><h2>Emoji & combos <span>🫧</span></h2><p>Save a little sparkle for your bio, caption or message.</p></div><div class="heading-icon">♡</div></div>
+      <div class="panel">
+        <div class="toolbar"><div class="search-wrap"><span>⌕</span><input id="emoji-search" type="search" placeholder="Search hearts, stars, flowers..."></div><select id="emoji-filter" aria-label="Filter emoji"><option value="all">All categories</option><option>Hearts</option><option>Stars</option><option>Flowers</option><option>Nature</option><option>Food</option><option>Faces</option><option>Objects</option><option>Combos</option></select></div>
+        <div class="emoji-grid" id="emoji-results"></div>
+      </div>
+    </section>
+
+    <section class="tool-section reveal" id="symbols">
+      <div class="section-heading"><div><span class="section-kicker">04 / EXTRA SPARKLE</span><h2>Aesthetic symbols <span>୨୧</span></h2><p>Mix, match and decorate your username or profile.</p></div><div class="heading-icon">✧</div></div>
+      <div class="panel">
+        <p class="symbol-hint">Click any symbol to copy it. Combine a few to make your own style.</p>
+        <div class="symbol-grid" id="symbol-results"></div>
+      </div>
+    </section>
+
+    <section class="creator reveal">
+      <div><span class="section-kicker">A LITTLE CREATIVE CORNER</span><h2>Make a tiny bio moment <span>♡</span></h2><p>Put your text and favourite decorations together.</p></div>
+      <div class="bio-box"><textarea id="bio-input" maxlength="160" placeholder="Write your bio or status here..."></textarea><div class="bio-actions"><span id="bio-count">0 / 160</span><button class="button primary small" id="bio-copy">Copy bio ↗</button></div></div>
+    </section>
+
+    <section class="about-strip reveal"><span class="about-flower">✿</span><div><h3>Made for your little internet corner.</h3><p>BloomText is an independent copy-and-paste text toolkit. Some fancy styles use Unicode characters, so how they appear can vary by device and app.</p></div></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">✿</span><span>Bloom<span class="brand-light">Text</span></span></a><span>Made with ♡ for creative people</span><a href="#top" id="back-top">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied! ♡</div>
+  <script src="script.js"></script>
+</body>
+</html>
