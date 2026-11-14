@@ -1,6 +1,7 @@
 ## 🌸 BloomText
 Make your words a little more you.  
 
+<br>
 
 a creative text styling tool designed to make ordinary text look aesthetic, cute, and unique!
 
