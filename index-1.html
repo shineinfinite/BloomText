@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff7fb">
+<meta name="description" content="BloomText — a cute text studio for fancy fonts, kaomoji, emoji combos and aesthetic symbols.">
+<title>BloomText — Your little text studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="orb orb-pink" aria-hidden="true"></div><div class="orb orb-lilac" aria-hidden="true"></div>
+<header class="header">
+<a class="brand" href="#home"><span class="brand-icon">✿</span><span>Bloom<span>Text</span></span></a>
+<nav><a href="#fonts">Fonts</a><a href="#faces">Kaomoji</a><a href="#combos">Combos</a><a href="#symbols">Symbols</a></nav>
+<a class="pill" href="#fonts">✧ Start creating</a>
+</header>
+<main id="home">
+<section class="hero">
+<div class="hero-inner">
+<div class="eyebrow">✦ &nbsp; YOUR LITTLE CORNER OF THE INTERNET &nbsp; ✦</div>
+<h1>Make your words<br><span>a little more you.</span></h1>
+<p>Fancy fonts, adorable kaomoji, dreamy emoji combos and pretty symbols — all ready to copy and paste.</p>
+<div class="hero-actions"><a class="btn primary" href="#fonts">Explore the tools ↗</a><a class="btn secondary" href="#faces">Browse cute faces ♡</a></div>
+<div class="hero-note">♡ Free to use · No sign-up · Works on mobile</div>
+<div class="decor" aria-hidden="true"><span>✿</span><span>♡</span><span>✧</span><span>❀</span><span>୨୧</span></div>
+</div>
+<div class="sticker sticker-a" aria-hidden="true">૮ ˶ᵔ ᵕ ᵔ˶ ა</div><div class="sticker sticker-b" aria-hidden="true">୨୧ ✧</div>
+</section>
+<section class="stats"><div><b>6</b><small>font styles</small></div><i></i><div><b>55+</b><small>cute faces</small></div><i></i><div><b>100+</b><small>pretty symbols</small></div><i></i><div><b>♡</b><small>one-tap copy</small></div></section>
+
+<section class="section" id="fonts">
+<div class="section-title"><div><label>01 / TEXT MAGIC</label><h2>Fancy font generator <em>✧</em></h2><p>Type once, explore different looks, and copy your favourite.</p></div><span class="badge">Aa</span></div>
+<div class="panel">
+<label class="field-label" for="font-input">YOUR TEXT</label><textarea id="font-input" maxlength="120" placeholder="Type something lovely...">Shine bright ✨</textarea>
+<div class="meta"><span id="font-count">13 / 120</span><button id="clear-font" class="plain" type="button">Clear text ×</button></div>
+<div class="controls"><label class="search">⌕ <input id="font-search" type="search" placeholder="Search font styles..."></label><select id="font-filter"><option value="all">All styles</option><option value="bold">Bold</option><option value="italic">Italic</option><option value="script">Script</option><option value="gothic">Gothic</option><option value="double">Double-struck</option><option value="small">Small caps</option></select></div>
+<div class="caption"><span id="font-total">6 styles</span><span>Tap a card to copy ♡</span></div><div class="font-grid" id="font-results"></div>
+</div></section>
+
+<section class="section" id="faces">
+<div class="section-title"><div><label>02 / EXPRESS YOURSELF</label><h2>Kaomoji & text faces <em>૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა</em></h2><p>A little face for every mood. Tap one to copy it instantly.</p></div><span class="badge lilac">◡̈</span></div>
+<div class="panel"><div class="controls"><label class="search">⌕ <input id="face-search" type="search" placeholder="Search happy, love, sad, cat..."></label><select id="face-filter"><option value="all">All moods</option><option>Happy</option><option>Love</option><option>Shy</option><option>Sad</option><option>Angry</option><option>Excited</option><option>Sleepy</option><option>Animals</option><option>Funny</option></select></div><div class="face-grid" id="face-results"></div></div>
+</section>
+
+<section class="section" id="combos">
+<div class="section-title"><div><label>03 / LITTLE DETAILS</label><h2>Emoji & aesthetic combos <em>🫧</em></h2><p>Sweet combinations for bios, captions and messages.</p></div><span class="badge">♡</span></div>
+<div class="panel"><div class="controls"><label class="search">⌕ <input id="combo-search" type="search" placeholder="Search flowers, dreamy, love..."></label><select id="combo-filter"><option value="all">All themes</option><option>Love</option><option>Flowers</option><option>Dreamy</option><option>Nature</option><option>Soft</option><option>Celebration</option></select></div><div class="combo-grid" id="combo-results"></div></div>
+</section>
+
+<section class="section" id="symbols">
+<div class="section-title"><div><label>04 / EXTRA SPARKLE</label><h2>Aesthetic symbols <em>୨୧</em></h2><p>Decorate your username, profile, notes or messages.</p></div><span class="badge lilac">✧</span></div>
+<div class="panel"><label class="search symbol-search">⌕ <input id="symbol-search" type="search" placeholder="Find hearts, stars, flowers, arrows..."></label><div class="symbol-grid" id="symbol-results"></div></div>
+</section>
+
+<section class="bio-section"><div><label> A LITTLE CREATIVE CORNER</label><h2>Make a tiny bio moment <em>♡</em></h2><p>Put your words and favourite decorations together.</p></div><div class="bio-panel"><textarea id="bio-input" maxlength="160" placeholder="Write your bio or status here..."></textarea><div class="bio-meta"><span id="bio-count">0 / 160</span><button id="copy-bio" class="btn primary" type="button">Copy my bio ↗</button></div></div></section>
+<aside class="about"><span>✿</span><div><b>Made for your little internet corner.</b><p>BloomText is a free copy-and-paste text studio. Fancy Unicode characters can look slightly different across devices and apps.</p></div></aside>
+</main>
+<footer><a class="brand" href="#home"><span class="brand-icon">✿</span><span>Bloom<span>Text</span></span></a><span>Made with ♡ for creative people</span><a href="#home">Back to top ↑</a></footer>
+<div class="toast" id="toast" role="status" aria-live="polite">Copied! ♡</div>
+
+<script>
+(() => {
+"use strict";
+const $ = s => document.querySelector(s);
+let toastTimer;
+function notify(message){const t=$("#toast");t.textContent=message;t.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove("show"),1700);}
+async function copyText(value){
+ try{
+  if(navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(value);
+  else {const el=document.createElement("textarea");el.value=value;el.style.position="fixed";el.style.opacity="0";document.body.appendChild(el);el.select();if(!document.execCommand("copy"))throw Error("copy");el.remove();}
+  notify("Copied! ♡");
+ }catch(e){notify("Copy unavailable — select the text manually.");}
+}
+const faces=[
+["Happy","(｡♥‿♥｡)"],["Happy","(＾▽＾)"],["Happy","ヽ(・∀・)ﾉ"],["Happy","(≧◡≦)"],["Happy","(๑˃ᴗ˂)ﻭ"],["Happy","٩(◕‿◕｡)۶"],["Happy","(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧"],["Happy","(˶ᵔ ᵕ ᵔ˶)"],["Happy","(๑>ᴗ<๑)"],["Happy","(✿◠‿◠)"],
+["Love","( ˘ ³˘)♥"],["Love","(♡˙︶˙♡)"],["Love","(っ˘з(˘⌣˘ )"],["Love","(｡・//ε//・｡)"],["Love","(♥ω♥*)"],["Love","(づ￣ ³￣)づ"],["Love","(ෆ˙ᵕ˙ෆ)"],["Love","(灬♥ω♥灬)"],
+["Shy","(⁄ ⁄•⁄ω⁄•⁄ ⁄)"],["Shy","(〃▽〃)"],["Shy","(,,>﹏<,,)"],["Shy","(๑•́ ₃ •̀๑)"],["Shy","(⁄ ⁄>⁄ω⁄<⁄ ⁄)"],
+["Sad","(ಥ﹏ಥ)"],["Sad","(╥_╥)"],["Sad","(っ˕ -｡)"],["Sad","(｡•́︿•̀｡)"],["Sad","(ノ_<。)"],["Sad","(╯︵╰,)"],["Sad","(｡╯︵╰｡)"],
+["Angry","(＃`Д´)"],["Angry","(ง'̀-'́)ง"],["Angry","(ノಠ益ಠ)ノ"],["Angry","(눈_눈)"],["Angry","(¬_¬)"],
+["Excited","＼(＾▽＾)／"],["Excited","ヾ(≧▽≦*)o"],["Excited","٩(ˊᗜˋ*)و"],["Excited","ヽ(o＾▽＾o)ノ"],["Excited","(ﾉ´ヮ`)ﾉ*: ･ﾟ"],
+["Sleepy","(－ω－) zzZ"],["Sleepy","(￣o￣) . z Z"],["Sleepy","(∪｡∪)｡｡｡"],["Sleepy","(ᴗ˳ᴗ)"],
+["Animals","ฅ^•ﻌ•^ฅ"],["Animals","(=^･ω･^=)"],["Animals","(=｀ω´=)"],["Animals","ʕ•ᴥ•ʔ"],["Animals","ʕっ•ᴥ•ʔっ"],["Animals","U・ᴥ・U"],["Animals","(ᵔᴥᵔ)"],
+["Funny","¯\\_(ツ)_/¯"],["Funny","(ノಠ益ಠ)ノ彡┻━┻"],["Funny","(¬‿¬)"],["Funny","(☞ﾟヮﾟ)☞"],["Funny","( ͡° ͜ʖ ͡°)"],["Funny","ლ(ಠ益ಠლ)"]
+].map(([category,text])=>({category,text}));
+const combos=[
+["Love","୨୧ ˚｡⋆♡˚"],["Love","♡₊˚ 🦢・₊✧"],["Love","💗ྀི"],["Love","꒰ა ♡ ໒꒱"],["Love","♥︎‧₊˚"],["Love","୨୧♡୨୧"],
+["Flowers","✿ 🌷 ✿"],["Flowers","❀˖°🌸"],["Flowers","ꕤ.｡.:*"],["Flowers","🌼₊˚ෆ"],["Flowers","𓍢ִ໋🌷͙֒"],
+["Dreamy","⋆｡°✩🌙"],["Dreamy","✧˖°🪐"],["Dreamy","☾⋆⁺₊✧"],["Dreamy","ੈ✩‧₊˚"],["Dreamy","⋆｡‧˚ʚ♡ɞ˚‧｡⋆"],
+["Nature","𓇼 ⋆｡˚ 𓆉"],["Nature","🌿₊˚ෆ"],["Nature","☁️🌱☁️"],["Nature","🌱˚ ༘♡"],
+["Soft","૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა"],["Soft","୨୧・┈・୨୧"],["Soft","₊˚⊹♡"],["Soft","｡ﾟﾟ･｡･ﾟﾟ｡"],
+["Celebration","✧･ﾟ: *✧･ﾟ:*"],["Celebration","୨୧ 🎀 ୨୧"],["Celebration","⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆"],["Celebration","🎀✨💫"]
+].map(([category,text])=>({category,text}));
+const symbols="♡ ♥ ღ დ ۵ ❥ ❣ ෆ ᰔ ꨄ ಇ ლ ✧ ✦ ✩ ✪ ✫ ✬ ✭ ✮ ✯ ✰ ★ ☆ ⋆ ⊹ ⭒ ⟡ ✵ ✶ ✷ ✸ ✿ ❀ ❁ ❃ ❋ ✾ ❊ ❉ ⚘ ☘ ♧ ♣ ୨୧ ༄ ༅ ༺ ༻ ࿐ ꕤ ꕥ ꧁ ꧂ ࿔ ⌁ ⌇ ⌖ ⌗ ⸙ → ← ↑ ↓ ↗ ↘ ↙ ↖ ➜ ➤ ➳ ➵ ➶ ➷ ➸ ➺ ∞ ≋ ≈ ≠ ≤ ≥ ± × ÷ √ ∆ ∇ ∴ ∵ ° ˚ ˖ ⁺ ₊ ˙ ｡ ･ · • ◦ ○ ● ◈ ◇ 「 」 『 』 〖 〗 〔 〕 〈 〉 《 》 ︵ ︶ ︷ ︸".split(" ");
+const maps={
+bold:["𝐀𝐁𝐂𝐃𝐄𝐅𝐆𝐇𝐈𝐉𝐊𝐋𝐌𝐍𝐎𝐏𝐐𝐑𝐒𝐓𝐔𝐕𝐖𝐗𝐘𝐙","𝐚𝐛𝐜𝐝𝐞𝐟𝐠𝐡𝐢𝐣𝐤𝐥𝐦𝐧𝐨𝐩𝐪𝐫𝐬𝐭𝐮𝐯𝐰𝐱𝐲𝐳","𝟎𝟏𝟐𝟑𝟒𝟓𝟔𝟕𝟖𝟗"],
+italic:["𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍","𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧","0123456789"],
+script:["𝒜𝐵𝒞𝒟𝐸𝐹𝒢𝐻𝐼𝒥𝒦𝐿𝑀𝒩𝒪𝒫𝒬𝑅𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵","𝒶𝒷𝒸𝒹𝑒𝒻𝑔𝒽𝒾𝒿𝓀𝓁𝓂𝓃𝑜𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏","0123456789"],
+gothic:["𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ","𝔞𝔟𝔠𝔡𝔢𝔣𝔤𝔥𝔦𝔧𝔨𝔩𝔪𝔫𝔬𝔭𝔮𝔯𝔰𝔱𝔲𝔳𝔴𝔵𝔶𝔷","0123456789"],
+double:["𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ","𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫","𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"],
+small:["ABCDEFGHIJKLMNOPQRSTUVWXYZ","ᴀʙᴄᴅᴇғɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ","0123456789"]};
+const styles=[["Bold","bold"],["Italic","italic"],["Cursive","script"],["Gothic","gothic"],["Double-struck","double"],["Small caps","small"]];
+function convert(text,key){const [u,l,d]=maps[key],normal="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",fancy=u+l+d,dict=new Map([...normal].map((c,i)=>[c,[...fancy][i]]));return [...text].map(c=>dict.get(c)||c).join("");}
+function renderFonts(){const q=$("#font-search").value.toLowerCase(),f=$("#font-filter").value,t=$("#font-input").value||"Your text here",host=$("#font-results");host.replaceChildren();const list=styles.filter(([n,k])=>(f==="all"||f===k)&&(n.toLowerCase().includes(q)||k.includes(q)));list.forEach(([name,key])=>{const b=document.createElement("button");b.type="button";b.className="font-card";const left=document.createElement("span");left.className="font-preview-wrap";const label=document.createElement("small");label.textContent=name;const preview=document.createElement("span");preview.className="font-preview";preview.textContent=convert(t,key);left.append(label,preview);const copy=document.createElement("span");copy.className="copy-label";copy.textContent="COPY ↗";b.append(left,copy);b.addEventListener("click",()=>copyText(convert($("#font-input").value,key)));host.append(b);});$("#font-total").textContent=list.length+" styles";}
+function renderCards(data,hostId,queryId,filterId,kind){const host=$(hostId),q=$(queryId).value.toLowerCase(),f=$(filterId).value;host.replaceChildren();const list=data.filter(x=>(f==="all"||x.category===f)&&(`${x.category} ${x.text}`).toLowerCase().includes(q));list.forEach(x=>{const b=document.createElement("button");b.type="button";b.className=kind+"-card";const text=document.createElement("span");text.className=kind==="face"?"face-text":"";text.textContent=x.text;const small=document.createElement("small");small.textContent=kind==="combo"?x.category+" · COPY":x.category;b.append(text,small);b.addEventListener("click",()=>copyText(x.text));host.append(b);});if(!list.length)host.innerHTML='<p class="empty">Nothing found — try another search ♡</p>';}
+function renderSymbols(){const q=$("#symbol-search").value.toLowerCase(),host=$("#symbol-results");host.replaceChildren();const list=symbols.filter(s=>s.toLowerCase().includes(q));list.forEach(s=>{const b=document.createElement("button");b.type="button";b.className="symbol-card";b.textContent=s;b.title="Copy "+s;b.addEventListener("click",()=>copyText(s));host.append(b);});if(!list.length)host.innerHTML='<p class="empty">No symbols found ♡</p>';}
+$("#font-input").addEventListener("input",()=>{$("#font-count").textContent=$("#font-input").value.length+" / 120";renderFonts();});
+$("#font-search").addEventListener("input",renderFonts);$("#font-filter").addEventListener("change",renderFonts);
+$("#clear-font").addEventListener("click",()=>{$("#font-input").value="";$("#font-input").dispatchEvent(new Event("input"));$("#font-input").focus();});
+$("#face-search").addEventListener("input",()=>renderCards(faces,"#face-results","#face-search","#face-filter","face"));
+$("#face-filter").addEventListener("change",()=>renderCards(faces,"#face-results","#face-search","#face-filter","face"));
+$("#combo-search").addEventListener("input",()=>renderCards(combos,"#combo-results","#combo-search","#combo-filter","combo"));
+$("#combo-filter").addEventListener("change",()=>renderCards(combos,"#combo-results","#combo-search","#combo-filter","combo"));
+$("#symbol-search").addEventListener("input",renderSymbols);
+$("#bio-input").addEventListener("input",()=>$("#bio-count").textContent=$("#bio-input").value.length+" / 160");
+$("#copy-bio").addEventListener("click",()=>{const v=$("#bio-input").value.trim();if(!v){notify("Write your bio first ♡");return;}copyText(v);});
+renderFonts();renderCards(faces,"#face-results","#face-search","#face-filter","face");renderCards(combos,"#combo-results","#combo-search","#combo-filter","combo");renderSymbols();
+})();
+</script>
+</body></html>
