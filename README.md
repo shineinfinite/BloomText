@@ -13,7 +13,4 @@
 
 ## Notes
 - This is a front-end-only static site. It does not collect visitor data or need a server.
-- Fancy text is created with Unicode characters, not actual downloadable font files. Some characters may look different or unsupported on certain devices/apps.
-- Google Fonts is an optional visual enhancement; the site falls back to system fonts if it cannot load.
-- The included tool content is original and does not copy the referenced websites' code or branding.
-- Before choosing a hosting provider for an ad-supported/commercial project, check that provider's current terms. GitHub Pages has restrictions on commercial use: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
+- So It's Totally Safe Enjoy And Shine Bright Stars
