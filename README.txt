@@ -8,15 +8,15 @@ a creative text styling tool designed to make ordinary text look aesthetic, cute
 Transform your everyday words into beautiful fonts, stylish text, and adorable expressions.
 
 
-🔗 Live Website: https://shineinfinite.github.io/BloomText/
+🔗 https://shineinfinite.github.io/BloomText/
 
 
 🌷 Features
 
-- 🎀 20+ Stylish Fonts
-- 🥰 100+ Cute Faces & Emoticons
+- 🎀 Stylish Fonts
+- 🥰 Cute Faces & Emoticons
 - ✨ Aesthetic Text Styling
-- 📋 Easy Copy & Paste
+- 📋 Easy One Click Copy
 - 💖 Simple and User-Friendly Interface
 - 📱 Mobile-Friendly Design
 - ⚡ Fast and Lightweight
@@ -44,8 +44,7 @@ BloomText/
 
 BloomText was created to make text styling fun, simple, and accessible.
 
-Whether you're creating a cute username, decorating your social media bio, or expressing yourself through aesthetic text. 
-BloomText makes it easier!
+Whether you're creating a cute username, decorating your social media bio, or expressing yourself through aesthetic text. BloomText makes it easier!
 
 
 👨‍💻 Creator
