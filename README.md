@@ -35,11 +35,10 @@ Transform your everyday words into beautiful fonts, stylish text, and adorable e
 
 📂 Project Structure
 
-BloomText/
-index.html
-style.css
-script.js
-README.md  
+index.html <br>
+style.css <br>
+script.js <br>
+README.md <br>
 
 ---
 
