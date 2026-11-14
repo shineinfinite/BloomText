@@ -9,7 +9,6 @@ Transform your everyday words into beautiful fonts, stylish text, and adorable e
 
 ### 🔗 Link :- 🌸 [ShineMine](https://shineinfinite.github.io/BloomText/)  
 
-<br>
 
 🌷 Features
 
