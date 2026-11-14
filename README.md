@@ -1,5 +1,4 @@
-## 🌸 BloomText
-Make your words a little more you.  
+🌸 BloomText - Make your words a little more you.  
 
 <br>
 
