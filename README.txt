@@ -1,4 +1,4 @@
-BloomText Deluxe — Anime-inspired text studio
+BloomText — Your text studio
 
 Files:
 - index.html
@@ -16,5 +16,6 @@ Publish:
 5. Your project-page URL is https://shineinfinite.github.io/BloomText/
 
 The site includes 23 font looks, 150+ kaomoji/text faces, 110 emoji combinations,
-and a curated 125-symbol collection. Copy buttons use the browser clipboard API
+and a curated 125-symbol collection. 
+Copy buttons use the browser clipboard API
 with a fallback for browsers that do not expose it.
