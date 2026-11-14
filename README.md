@@ -1,6 +1,4 @@
-# BloomText — Cute Text Studio
-
-A responsive, static website made with plain HTML, CSS and JavaScript. No build tools, frameworks, API keys, database or sign-up required.
+# Cute Text Studio
 
 ## Features
 - Subtle motion and scroll-reveal effects (respects reduced-motion settings)
@@ -12,16 +10,6 @@ A responsive, static website made with plain HTML, CSS and JavaScript. No build 
 - 100+ copyable decorative symbols
 - Mini bio composer with character counter and copy button
 - Responsive mobile layout and copy-to-clipboard buttons
-
-## Publish with GitHub Pages
-1. Create a new public repository on GitHub.
-2. Upload **index.html**, **style.css**, **script.js**, and **README.md** to the repository root.
-3. Open repository **Settings → Pages**.
-4. Under Build and deployment, choose **Deploy from a branch**.
-5. Select **main** and **/(root)**, then Save.
-6. Wait for the Pages deployment and open the URL shown there.
-
-GitHub's official guide: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
 ## Notes
 - This is a front-end-only static site. It does not collect visitor data or need a server.
