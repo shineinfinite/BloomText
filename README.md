@@ -1,5 +1,5 @@
 🌸BloomText
-Make your words a little more you.  
+Make your words a little more you
 
 ---
 
