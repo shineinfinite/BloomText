@@ -1,5 +1,5 @@
-# 🌸 BloomText
-# Make your words a little more you.
+## 🌸 BloomText
+Make your words a little more you.
 
 
 a creative text styling tool designed to make ordinary text look aesthetic, cute, and unique!
@@ -7,7 +7,7 @@ a creative text styling tool designed to make ordinary text look aesthetic, cute
 Transform your everyday words into beautiful fonts, stylish text, and adorable expressions.
 
 
-## 🔗 Active Website Link :- 🌸 [ShineMine](https://shineinfinite.github.io/BloomText/)
+## 🔗 Link :- 🌸 [ShineMine](https://shineinfinite.github.io/BloomText/)
 
 
 🌷 Features
@@ -32,11 +32,10 @@ Transform your everyday words into beautiful fonts, stylish text, and adorable e
 📂 Project Structure
 
 BloomText/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+index.html
+style.css
+script.js
+README.md
 
 
 💡 Purpose
@@ -48,7 +47,7 @@ Whether you're creating a cute username, decorating your social media bio, or ex
 
 👨‍💻 Creator
 
-Created with || ❤️ || by || Shine ✨ ||
+Created with ||❤️|| by ||Shine ✨||
 
 
 📜 License
