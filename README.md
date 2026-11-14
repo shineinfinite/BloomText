@@ -1,4 +1,4 @@
-BloomText <br>
+🌸 BloomText - <br>
 Make your words a little more you
 
 ---
@@ -28,9 +28,9 @@ Transform your everyday words into beautiful fonts, stylish text, and adorable e
 
 🛠️ Built With
 
-- HTML5
-- CSS3
-- JavaScript  
+- HTML5 <br>
+- CSS3 <br>
+- JavaScript <br>
 
 ---
 
