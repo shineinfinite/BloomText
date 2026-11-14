@@ -8,7 +8,7 @@ a creative text styling tool designed to make ordinary text look aesthetic, cute
 Transform your everyday words into beautiful fonts, stylish text, and adorable expressions.
 
 
-🔗 https://shineinfinite.github.io/BloomText/
+https://shineinfinite.github.io/BloomText/
 
 
 🌷 Features
